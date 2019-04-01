@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Content
 - type: jekyll-posts
   label: Posts
   create: all
@@ -17,6 +15,8 @@ sections:
   templates:
   - landing-page
   - page
+- type: heading
+  label: Content
 - type: directory
   path: _people
   label: People
